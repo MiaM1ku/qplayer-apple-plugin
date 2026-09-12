@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "apple",
+  "name": "Apple Music",
+  "version": "0.1.0",
+  "apiVersion": "1.0",
+  "minHostVersion": "1.4.0",
+  "entry": "src/main.js",
+  "publisher": "MiaM1ku",
+  "capabilities": [
+    "searchSongs",
+    "searchAlbums",
+    "searchArtists",
+    "songDetails",
+    "playlistDetails",
+    "albumDetails",
+    "artistDetails",
+    "home",
+    "resolveStream",
+    "lyrics",
+    "account",
+    "login"
+  ],
+  "permissions": [
+    "network",
+    "credentials",
+    "webAuth"
+  ],
+  "networkDomains": [
+    "music.apple.com",
+    "amp-api.music.apple.com",
+    "amp-api-edge.music.apple.com",
+    "itunes.apple.com",
+    "audio-ssl.itunes.apple.com",
+    "*.apple.com",
+    "*.mzstatic.com",
+    "*.itunes.apple.com"
+  ],
+  "networkMethods": [
+    "GET",
+    "POST"
+  ],
+  "ui": []
+}
